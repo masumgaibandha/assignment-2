@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* noto-serif-font */
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+  "wdth" 100;
+}
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body{
+  overflow-x: hidden;
+}
+
+/* Shared syles */
+.bg-primary{
+  background-color: #F5F8FF;
+  margin: 0 auto;
+  padding: 0 16px; 
+  max-width: 1200px;
+}
+.btn-primary {
+  width: 100%;
+  background-color: #E95A08;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+.btn-primary a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.nav-image img{
+  width: 135px;
+  height: 82px;
+  margin-top: 24px;
+}
+
+/* Nav ber */
+ul a{
+  text-decoration: none;
+  color: #8987A1;
+}
+
+
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-items{
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  
+  
+}
+
+.text-color{
+  color: #252432;
+  font-weight: 700;
+}
+/* Banner Section Style */
+.banner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+.banner-content{
+  max-width: 570px;
+  margin: 140px 0 0;
+}
+
+.banner-title{
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.banner-text-title{
+  color: #E95A08;
+}
+.banner-description{
+  font-size: 1.3rem;
+}
+.banner-image{
+  max-width: 100%;
+ 
+}
+
+/* Plants section style */
+.plants-content{
+  max-width: 1140px;
+  align-items: center;
+}
+.plants-title{
+  font-size: 3.1rem;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+}
+.plants-text-color{
+  color: #E95A08;
+}
+
+.plants-description{
+  font-size: 1.37rem;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  
+}
+.card-title{
+color: #111111;
+font-size: 1.37rem;
+font-weight: 500;
+text-align: center;
+}
+.card-price{
+  font-size: 1.37rem;
+  color: #111111;
+  font-weight: 700;
+  text-align: center;
+}
+.card-body{
+  align-items: center;
+}
+.plants-card {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.plants-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.plants-box{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+  box-sizing: border-box;
+  
+}
+.flower-plants{
+  margin-top: 200px;
+  margin-bottom: 50px;
+  display: flex;
+  gap: 150px;
+  border: 3px solid red;
+}
+.flower-wrapper{
+  border: 2px solid blue;
+  position: relative;
+  display: inline-block;
+}
+.people-image{
+  width: 540px;
+  display: block;
+}
+.badge-icon{
+  position: absolute;
+  top: -25%;
+  right: -25%;
+  width: 286px;
+}
+
+.flower-description li{
+  padding: 20px;
+}
+.flower-description{
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.5);
+
+}
+.flower-title{
+  font-size: 50px;
+  font-weight: 700;
+  color: #000000;
+}
+
+
+
+/* Mobile Responsive */
+@media screen and (max-width:576px) {
+  .bg-primary{
+    margin: 0 16px;
+}
+html, body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+  .menu-item{
+    display: none;
+   
+  }
+  .menu-items{
+    /* display: flex;
+    justify-content: flex-end; */
+    /* flex-direction: column; */
+     
+  }
+  
+  .nav-container{
+    justify-content: center ;
+    flex-direction: row;
+    gap: 100px;
+    
+  }
+  .banner{
+    flex-direction: column-reverse;
+    
+    
+  }
+  .banner-image img{
+    width: 393px;
+    
+  }
+  .banner-content{
+    max-width: 361px;
+    /* text-align: center; */
+    
+    
+  }
+/* Masum */
+   .plants-box {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 8px;
+    gap: 10px;
+  }
+  .plant-card{
+    width: 100%;
+  }
+
+  .plants-content{
+    justify-items: center;
+  }
+
+  /* Flower Plant style */
+  .flower-plants{
+    flex-direction: column;
+  }
+  .people-image{
+    max-width: 330px;
+    
+  }
+  .badge-icon{
+    display: none;
+  }
+}
