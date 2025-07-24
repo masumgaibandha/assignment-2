@@ -41,6 +41,15 @@ body{
   color: #FFFFFF;
 }
 
+.shop-now a{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: 600;
+   
+}
+
+/* shared end */
+
 .nav-image img{
   width: 135px;
   height: 82px;
@@ -197,36 +206,67 @@ text-align: center;
 /* Love Plant Section */
 .plants-three-images{
   display: flex;
-  gap: 12px;
+  gap: 30px;
+  height: auto;
+  
 }
 .left-plant-images{
   display: flex;
   flex-direction: column;
   gap: 12px;
-  flex: 1;
+  width: 33%;
+  
+  
   
 }
 
 .right-plant-image{
-  flex: 1;
+  margin-left: 20px;
+  width: 750px;
+  
+  /* border: 3px solid blue; */
 
 }
 .image-box{
   position: relative;
   
   
-}
-.image-box img{
-  border-radius: 10px;
   
 }
+.image-box img{
+  border-radius: 15px;
+  width: 100%;
+  display: block;
+  
+}
+
 .text-overwrite{
   color: white;
   font-size: 20px;
   font-weight: 700;
   position: absolute;
-  top: 20%;
-  right: 20%;
+  top: 35%;
+  right: 35%;
+  text-align: center;
+ 
+
+}
+.text-overwrite zabo{
+  font-size: 50px;
+}
+
+.plants-lover-title{
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+
+}
+
+.plants-lover-description{
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 /* Mobile Responsive */
