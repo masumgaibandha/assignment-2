@@ -194,7 +194,40 @@ text-align: center;
   color: #000000;
 }
 
+/* Love Plant Section */
+.plants-three-images{
+  display: flex;
+  gap: 12px;
+}
+.left-plant-images{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+  
+}
 
+.right-plant-image{
+  flex: 1;
+
+}
+.image-box{
+  position: relative;
+  
+  
+}
+.image-box img{
+  border-radius: 10px;
+  
+}
+.text-overwrite{
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  top: 20%;
+  right: 20%;
+}
 
 /* Mobile Responsive */
 @media screen and (max-width:576px) {
