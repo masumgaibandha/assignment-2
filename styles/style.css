@@ -302,7 +302,7 @@ text-align: center;
   
 }
 .overwrite-content h1{
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
   color: #FFFFFF;
   margin-bottom: 20px;
@@ -337,8 +337,7 @@ text-align: center;
 
 .input-wrapper {
   display: flex;
-  /* width: 100%; */
-  width: 700px;
+  width: 600px;
   margin: 0 auto;
 }
 
@@ -420,7 +419,7 @@ html, body{
     
   }
 
-  /* Plants syle */
+  /* Plants sytle */
 
    .plants-box {
     grid-template-columns: repeat(2, 1fr);
@@ -478,6 +477,8 @@ html, body{
   .input-wrapper {
   display: flex;
   width: 100%;
+  justify-content: center;
+  
 
 }
 
